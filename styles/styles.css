@@ -45,6 +45,15 @@
     background: #e7e6e9;
     padding: 1rem;
     border-radius: 10px;
+    gap: 1rem;
+}
+
+.youtube {
+    width: 13%;
+}
+
+.tiktok {
+    width: 13%;
 }
 
 /*Banner*/
@@ -421,4 +430,24 @@ footer {
     font-size: 0.7rem;
     padding-top: 1.5rem;
 }
+}
+
+@media screen and (max-width: 768px){
+    .header {
+        padding: 1rem;
+    }
+
+    .banner-title {
+        font-size: 3rem;
+    }
+    .banner-subtitle {
+        font-size: 1.5rem;
+    }
+    .rouge {
+        font-size: 0.9rem;
+    }
+    .sign-in {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 }
