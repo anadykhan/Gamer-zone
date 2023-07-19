@@ -296,6 +296,17 @@ footer {
     padding: 2rem 0;
 }
 
+.footer-social-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-social-main > img {
+    width: 3%;
+}
+
 /*Media Queries*/
 /*Navbar*/
 @media screen and (max-width: 425px) {
@@ -399,6 +410,11 @@ footer {
     gap: 2rem;
     padding: 0;
     font-size: 0.7rem;
+}
+
+.footer-social-main > img {
+    width: 8%;
+    padding: 2rem 0;
 }
 
 .copywrite {
