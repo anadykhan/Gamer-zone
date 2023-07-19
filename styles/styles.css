@@ -1,0 +1,60 @@
+/*Work sans*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 10rem;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.g{
+    color: #FF42A5;
+}
+
+.nav-list-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+.follow-us-container {
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #e7e6e9;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+/*Media Queries*/
+@media screen and (max-width: 425px) {
+    .header {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .nav-list-main {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}
+
