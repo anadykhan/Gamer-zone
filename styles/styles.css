@@ -380,4 +380,22 @@ footer {
     .genre-img {
         width: 60%;
     }
+
+/*Footer*/
+.footer-list-main {
+    padding-bottom: 0;
+    gap: 0.2;
+    font-size: 0.7rem;
+}
+
+.footer-contdiions-main {
+    gap: 2rem;
+    padding: 0;
+    font-size: 0.7rem;
+}
+
+.copywrite {
+    font-size: 0.7rem;
+    padding-top: 1.5rem;
+}
 }
