@@ -167,6 +167,7 @@
     align-items: center;
     gap: 1rem;
     width: 30%;
+    transition: 200ms ease;
 }
 
 .card-content {
@@ -175,6 +176,12 @@
 
 .card-img {
     width: 70%;
+}
+/*Animation*/
+.online-card:hover .card-img{
+    border: solid 4px #FF42A5;
+    border-radius: 15px;
+    filter: brightness(50%);
 }
 
 /*Anime*/
