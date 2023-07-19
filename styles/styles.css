@@ -216,6 +216,37 @@
     top: 20px;
 }
 
+/*Genre*/
+.genre {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.genre-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    gap: 0.5rem;
+    border-radius: 50px;
+    transition: 200ms linear;
+    padding: 0.5rem;
+}
+
+/*Animation*/
+.genre-container:hover {
+    border: 2px solid;
+    border-color: #FF42A5;
+    color: #FF42A5;
+}
+
+.genre-name {
+    font-weight: 600;
+}
+
 /*Media Queries*/
 /*Navbar*/
 @media screen and (max-width: 425px) {
@@ -290,5 +321,21 @@
 
     .anime-content{
         padding-right: 0;
+    }
+
+    /*Genre*/
+    .genre {
+        height: 150vh;
+    }
+
+    .genre-container {
+        margin: 1rem;
+        font-size: 0.6rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .genre-img {
+        width: 60%;
     }
 }
