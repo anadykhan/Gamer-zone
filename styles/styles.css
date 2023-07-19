@@ -25,7 +25,7 @@
     font-weight: 700;
 }
 
-.g{
+.g {
     color: #FF42A5;
 }
 
@@ -90,7 +90,7 @@
 .banner-title {
     font-size: 4rem;
     font-weight: 800;
-    background: linear-gradient(180deg, rgba(222,76,193,1) 46%, rgba(159,85,228,1) 77%);
+    background: linear-gradient(180deg, rgba(222, 76, 193, 1) 46%, rgba(159, 85, 228, 1) 77%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -99,7 +99,7 @@
     list-style: none;
 }
 
-.banner-list-main > li {
+.banner-list-main>li {
     padding: 0.3rem 0;
 }
 
@@ -125,14 +125,68 @@
     background-color: #4EC5F7;
 }
 
+/*Online*/
+.online {
+    padding-top: 7rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.online-title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.online-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.online-title > span {
+    background: linear-gradient(180deg, rgba(222, 76, 193, 1) 46%, rgba(159, 85, 228, 1) 77%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.online-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.online-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 30%;
+}
+
+.card-content {
+    width: 70%;
+}
+
+.card-img {
+    width: 70%;
+}
+
 /*Media Queries*/
 /*Navbar*/
 @media screen and (max-width: 425px) {
+
     /*Navbar*/
     .header {
         flex-direction: column;
         gap: 2rem;
     }
+
     .nav-list-main {
         flex-direction: column;
         gap: 1rem;
@@ -142,17 +196,38 @@
     .banner {
         flex-direction: column;
     }
+
     .banner-content {
         background-size: cover;
         width: 80vw;
         align-items: center;
         justify-content: center;
     }
+
     .banner-content-main {
         padding: 0rem;
     }
+
     .banner-img {
         width: 70%;
     }
-}
 
+    /*Online*/
+    .online {
+        flex-direction: column;
+        height: 400vh;
+    }
+
+    .online-title-container {
+        text-align: center;
+    }
+
+    .online-card-container {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .online-card {
+        width: 100%;
+    }
+}
